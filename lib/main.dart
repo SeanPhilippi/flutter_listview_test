@@ -46,7 +46,7 @@ class Home extends StatelessWidget {
         child: SingleChildScrollView(
           child: Column(
             children: const [
-              BusinessForm(),
+              UserForm(),
             ],
           ),
         ),
