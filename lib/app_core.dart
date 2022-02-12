@@ -11,6 +11,10 @@ export 'package:sqflite/sqflite.dart';
 // widgets
 export 'widgets/custom_text_field.dart';
 export 'widgets/user_form.dart';
+export 'widgets/user_list.dart';
+
+// classes
+export 'classes/user.dart';
 
 // constants
 export 'constants/colors.dart';

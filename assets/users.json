@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "rowCount": 3,
+  "rows": [
+    {
+      "firstName": "Sean",
+      "lastName": "Philippi",
+      "email": "sean.philippi@pm.me"
+    },
+    {
+      "firstName": "Jake",
+      "lastName": "Achitoff",
+      "email": "jake.achitoff@gmail.com"
+    },
+    {
+      "firstName": "Lindsey",
+      "lastName": "Grey",
+      "email": "linsey.grey@yahoo.com"
+    }
+  ]
+}
