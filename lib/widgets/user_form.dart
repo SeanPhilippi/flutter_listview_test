@@ -26,6 +26,8 @@ class _UserFormState extends State<UserForm> {
   final TextEditingController _lastNameController = TextEditingController();
   final TextEditingController _emailController = TextEditingController();
 
+  Future<void> _addUser(data) async {}
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -71,6 +73,11 @@ class _UserFormState extends State<UserForm> {
                         backgroundColor:
                             MaterialStateProperty.all(Colors.blue)),
                     onPressed: () {
+                      _addUser({
+                        'firstName': _firstNameController.text(),
+                        'lastName': _lastNameController.text(),
+                        'email': _emailController.text(),
+                      });
                       if (_formKey.currentState.validate()) {
                         ScaffoldMessenger.of(context).showSnackBar(
                           const SnackBar(content: Text('Processing Data')),

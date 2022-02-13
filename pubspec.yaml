@@ -26,10 +26,12 @@ dependencies:
     sdk: flutter
 
 dev_dependencies:
+  dio: ^4.0.4
   flutter_test:
     sdk: flutter
+  html: ^0.15.0
   http: ^0.13.4
-  sqflite: ^2.0.2
+  postgres: ^2.4.3
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

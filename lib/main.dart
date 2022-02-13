@@ -2,15 +2,9 @@ import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 import './app_core.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  // final database = openDatabase(
-  //   const dbPath = './home';
-  //   // Set the path to the database. Note: Using the `join` function from the
-  //   // `path` package is best practice to ensure the path is correctly
-  //   // constructed for each platform.
-  //   join(dbPath, 'doggie_database.db'),
-  // );
+
   runApp(MyApp());
 }
 

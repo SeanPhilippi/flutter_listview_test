@@ -6,7 +6,7 @@ export 'dart:async';
 
 // packages
 export 'package:path/path.dart';
-export 'package:sqflite/sqflite.dart';
+export 'package:postgres/postgres.dart';
 
 // widgets
 export 'widgets/custom_text_field.dart';
@@ -18,6 +18,9 @@ export 'classes/user.dart';
 
 // constants
 export 'constants/colors.dart';
+
+// database
+export 'database/db.dart';
 
 // utils
 export 'utils/hex.dart';
